@@ -1,0 +1,40 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Jose
+ * Fecha: 10/08/2016
+ * Hora: 08:35 p.m.
+ * 
+ */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace Ejercicio5
+{ 
+    class Program 
+    {
+        static void Main(string[] args)
+        {
+            int num; string linea;
+            Console.Write("Ingresa Tu Edad:");
+            linea = Console.ReadLine();
+            num = int.Parse(linea);
+            if (num < 18)
+            {
+                Console.Write("No Puedes Votar"); 
+            }
+            else
+            {
+                Console.Write("Felicidades Puedes Votar");
+            }
+            if (num > 18) 
+            {      
+           System.Console.ReadLine();
+        }
+            Console.ReadKey();
+    } 
+}
+}
