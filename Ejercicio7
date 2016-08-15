@@ -1,0 +1,37 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Jose
+ * Fecha: 11/08/2016
+ * Hora: 06:31 p.m.
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace Ejercicio7
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            int numero1, numero2, numero3, mayor;
+            Console.Write("Ingresa El Primer Numero:");
+            numero1 = int.Parse(Console.ReadLine());
+            Console.Write("Ingresa El Segundo Numero:");
+            numero2 = int.Parse(Console.ReadLine());
+            Console.Write("Ingresa El Tercer Numero:");
+            numero3 = int.Parse(Console.ReadLine());
+            if (numero1 > numero2 && numero1 > numero3)
+                mayor = numero1;
+            else if (numero2 > numero1 && numero2 > numero3)
+                mayor = numero2;
+            else
+                mayor = numero3;
+            Console.WriteLine("El Numero Mayor es:{0}", mayor);
+            Console.Read();
+        }
+    }
+}
