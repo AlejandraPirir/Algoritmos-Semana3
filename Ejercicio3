@@ -1,0 +1,30 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Jose
+ * Fecha: 10/08/2016
+ * Hora: 07:47 p.m.
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+class Ejercicio3
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Ingrese un numero");
+int a = Convert.ToInt16(Console.ReadLine());
+if (a >= 0)
+{
+Console.WriteLine(a + " es positivo");
+}
+else
+{
+Console.WriteLine(a + " es negativo");
+}
+Console.ReadLine();
+}
+}
+
+
