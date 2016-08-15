@@ -1,0 +1,40 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Jose
+ * Fecha: 10/08/2016
+ * Hora: 08:17 p.m.
+ * 
+ */
+ using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace Ejercicio6
+{ 
+    class Program 
+    {
+        static void Main(string[] args)
+        {
+            int num; string linea;
+            Console.Write("Ingrese Altura en Centimetros:");
+            linea = Console.ReadLine();
+            num = int.Parse(linea);
+            if (num < 150)
+            {
+                Console.Write(" Usted es de ALtura Baja "); 
+            }
+            else
+            {
+                Console.Write(" Usted es de Altura Promedio ");
+            }
+            if (num > 170) 
+            {
+                Console.Write(" Usted es de una altura mayor a la Promedio "); 
+            }
+            Console.ReadKey(); 
+        }
+    } 
+}
+
