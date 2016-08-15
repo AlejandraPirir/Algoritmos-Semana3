@@ -1,0 +1,27 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Jose
+ * Fecha: 10/08/2016
+ * Hora: 05:59 p.m.
+ * 
+ */
+using System;
+public class Ejercicio1
+{
+public static void Main()
+{
+float numero1;
+float numero2;
+Console.WriteLine("Escriba su primer valor");
+numero1 = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Escriba su segundo valor");
+numero2 = Convert.ToInt16(Console.ReadLine());
+if (numero1 == numero2 )
+Console.WriteLine("Son iguales");
+if (numero1.CompareTo(numero2 ) > 0)
+Console.WriteLine("El numero {1} es mayor que {0} ", numero1, numero2 );
+else
+Console.WriteLine("El numero {0} es menor que {1}", numero1, numero2);
+Console.ReadLine();
+}
+}
